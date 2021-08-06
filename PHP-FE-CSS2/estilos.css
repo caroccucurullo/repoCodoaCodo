@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+/*fondos colores*/
+
+.bg-dark{
+	background-color: #262525
+	
+}
+
+.bg-danger{
+	background-color: #C11111
+}
+
+.texto1{
+	color: yellow;
+	font-size: 2em;
+}
+
+.texto2{
+	color: white;
+	font-size: 2em;
+}
+
+
+/*end fondos */
+
+.grid{
+	padding: 15px;
+	display: grid;
+	grid-template-columns:repeat(4, 320px);
+	grid-template-rows: repeat(1, 320px);
+	justify-content: flex-start;
+	align-content: center;
+}
+
+.grid div{
+	width: 300px;
+	height: 300px;
+}
